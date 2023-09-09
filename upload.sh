@@ -1,8 +1,6 @@
 #!/bin/sh
 
-##
-## @author Daisuke Homma
-##
+# @author Daisuke Homma
 
 DATE=`date '+%Y/%m/%d %H:%M'`
 MESSAGE="committed on ${DATE}."
