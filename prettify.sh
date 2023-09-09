@@ -2,4 +2,4 @@
 
 # @author Daisuke Homma
 
-stylua ${PWD}/$@ --config-path $(dirname $0)/.stylua.toml
+stylua -v ${PWD}/*.lua --config-path $(dirname $0)/.stylua.toml
