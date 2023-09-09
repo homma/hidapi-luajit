@@ -13,7 +13,7 @@ end
 
 local init_hidapi = function()
   -- initialize hidapi
-  local ref = hidapi.hid_init()
+  hidapi.hid_init()
   hidapi.hid_darwin_set_open_exclusive(0)
 end
 
