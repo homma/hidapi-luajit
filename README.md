@@ -31,7 +31,7 @@ A Lua module which offers an interface to the HIDAPI library.
 
 `hidlib.lua`
 
-A supplimental library to the hidapi module.
+A supplemental module to the hidapi module.
 
 `hidapi_cdef.sh`
 
