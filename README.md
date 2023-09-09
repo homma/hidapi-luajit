@@ -22,3 +22,25 @@ $ ./hidapi_cdef.sh
 ````sh
 $ luajit dump_hid_device_info.lua
 ````
+
+#### Files
+
+`hidapi.lua`
+
+A Lua module which offers an interface to the HIDAPI library.
+
+`hidlib.lua`
+
+A supplimental library to the hidapi module.
+
+`hidapi_cdef.sh`
+
+A shell script to generate a C definition file for LuaJIT FFI.
+
+`hidapi_umbrella.h`
+
+An umbrella header file which includes necessary header files.
+
+`dump_hid_device_info.lua`
+
+A sample Lua script which uses HIDAPI library.
