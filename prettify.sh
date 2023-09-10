@@ -2,4 +2,13 @@
 
 # @author Daisuke Homma
 
-stylua -v ${PWD}/*.lua --config-path .stylua.toml
+INDENT_TYPE=Spaces
+INDENT_WIDTH=2
+QUOTE_STYLE=AutoPreferSingle
+CALL_PARENTHESES=None
+
+stylua -v ${PWD}/*.lua \
+--indent-type ${INDENT_TYPE} \
+--indent-width ${INDENT_WIDTH} \
+--quote-style ${QUOTE_STYLE} \
+--call-parentheses ${CALL_PARENTHESES}
