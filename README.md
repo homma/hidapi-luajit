@@ -14,7 +14,7 @@ Sample codes using [HIDAPI library](https://github.com/libusb/hidapi) from LuaJI
 generate the cdef file as below.
 
 ````sh
-$ ./hidapi_cdef.sh
+$ ./gen_hidapi_cdef.sh
 ````
 
 #### Usage
