@@ -44,3 +44,9 @@ An umbrella header file which includes necessary header files.
 `dump_hid_device_info.lua`
 
 A sample Lua script which uses HIDAPI library.
+
+#### Licenses
+
+- `LICENSE.hidapi-luajit` except generated ext/hidapi.cdef file.
+- `LICENSE.hidapi` for generated ext/hidapi.cdef file.
+
