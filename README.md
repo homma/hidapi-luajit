@@ -33,7 +33,7 @@ A Lua module which offers an interface to the HIDAPI library.
 
 A supplemental module to the hidapi module.
 
-`hidapi_cdef.sh`
+`gen_hidapi_cdef.sh`
 
 A shell script to generate a C definition file for LuaJIT FFI.
 
