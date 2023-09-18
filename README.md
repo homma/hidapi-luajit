@@ -20,7 +20,7 @@ $ ./gen_hidapi_cdef.sh
 #### Usage
 
 ````sh
-$ luajit dump_hid_device_info.lua
+$ luajit samples/dump_hid_device_info.lua
 ````
 
 #### Files
